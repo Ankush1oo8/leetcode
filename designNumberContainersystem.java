@@ -4,6 +4,7 @@ public class designNumberContainersystem {
         private Map<Integer, Integer> index_val;
     
         public NumberContainers() {
+            
             res = new HashMap<>();
             index_val = new HashMap<>();
         }
