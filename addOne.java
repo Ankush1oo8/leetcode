@@ -7,6 +7,7 @@ public class addOne {
                 digits[i]++;
                 return digits;
             }
+        }
         int[] newDigits = new int[digits.length + 1];
         newDigits[0] = 1;
         return newDigits;
