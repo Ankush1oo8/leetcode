@@ -1,6 +1,4 @@
 public class 1Dto2D {
-    
-
     public int[][] construct2DArray(int[] original, int m, int n) {
       if (original.length != m * n)
         return new int[][] {};
