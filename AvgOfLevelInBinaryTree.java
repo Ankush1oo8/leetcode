@@ -1,6 +1,3 @@
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
 
 public class AvgOfLevelInBinaryTree {
     public List<Double> averageOfLevels(TreeNode root) {
