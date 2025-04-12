@@ -1,8 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.swing.tree.TreeNode;
-
 public class BTPostorderTraversal {
      public List<Integer> postorderTraversal(TreeNode root) {
       List<Integer>list=new ArrayList<>();
