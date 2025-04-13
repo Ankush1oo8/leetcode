@@ -1,5 +1,7 @@
 public class BuyAndSellStock {
+    
     public int maxProfit(int[] prices) {
+        
         int left=0;
         int right=0;
         int profit=Integer.MIN_VALUE;
@@ -9,5 +11,7 @@ public class BuyAndSellStock {
         minPrice=Math.min(minPrice,price);
        }
         return profit;
+        
     }
+    
 }
